@@ -6,14 +6,14 @@ def initialize(name)
   @name = name
   @@all << self
 end
-
+  
 def clear_all
   @@all = []
 end
 
 def self.all
-  @@all.each do |name|
-    puts dog.name
+  @@all.each do |dogname|
+    puts dogname.name
   end
 end
 end
